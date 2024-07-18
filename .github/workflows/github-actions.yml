@@ -16,4 +16,4 @@ jobs:
       - uses: actions/checkout@v2
       - uses: ncipollo/release-action@v1
         with:
-          bodyFile: "changeLogs/release-${{ github.ref }}.md"
+          bodyFile: "changeLogs/release-${{ github.ref_name }}.md"
