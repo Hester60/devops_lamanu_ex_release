@@ -1,6 +1,5 @@
 def main():
     print('Hello Word')
-    print('Updated !')
 
 
 
